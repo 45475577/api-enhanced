@@ -515,7 +515,7 @@
             var timeout = parseInt(document.getElementById('timeout').value, 10) || 0;
             var headers = collectHeaders();
 
-            // 根据当前激活的 tab 读取数据
+            // 根据当��激活的 tab 读取数据
             var parsedData;
             var activeTab = document.querySelector('.tab-btn.active');
             if (activeTab && activeTab.dataset.mode === 'kv') {
@@ -670,5 +670,6 @@
             }
         })();
     </script>
+    <script src="/static/speed-insights.js" defer></script>
 </body>
 </html>
